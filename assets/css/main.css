@@ -230,6 +230,7 @@ input, select, textarea {
   
   .portfolio-img{
 	flex: 1;
+	max-width: 32px;
   }
   
   .portfolio-description{
