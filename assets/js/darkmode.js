@@ -16,3 +16,8 @@ let trans = () => {
         document.documentElement.classList.remove('transition')
     }, 1000)
 }
+
+
+function open(){
+    window.open('https://techshash.wordpress.com/', '_blank');
+}
