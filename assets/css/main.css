@@ -47,15 +47,7 @@ html {
 	box-sizing: inherit;
 }
 
-body {
-	/* background-image: url("images/overlay.png"), url("images/bg.jpg"); */
-	background: rgb(255,56,187);
-background: linear-gradient(346deg, rgba(255,56,187,1) 4%, rgba(87,244,253,1) 100%);
-	background-repeat: repeat, no-repeat;
-	background-size: auto, 100% 100%;
-	background-attachment: fixed;
-	overflow-y: scroll;
-}
+
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 		-moz-animation: none !important;

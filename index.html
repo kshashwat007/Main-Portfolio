@@ -1,28 +1,33 @@
 <!DOCTYPE HTML>
 
-<html>
+<html lang="en" data-theme="light">
 	<head>
 		<title>Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="css/darkmode.css">
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
 		<!-- Wrapper-->
 			<div id="wrapper">
-
+					
+					<div class="toggle-container">
+						<input type="checkbox" id="switch" name="theme"/><label for="switch">Toggle</label>
+					</div>
 				<!-- Nav -->
-					<nav id="nav">
+					<nav id="nav" data-theme="light">
 						<a href="#" class="icon solid fa-home"><span>Home</span></a>
 						<a href="#projects" class="icon solid fa-folder"><span>Projects</span></a>
 						<a href="#skills" class="icon solid fas fa-chalkboard"><span>Skills</span></a>
 						<a href="#contact" class="icon solid fa-envelope"><span>Contact</span></a>
 					</nav>
-
+					
+					
 				<!-- Main -->
-					<div id="main">
+					<div id="main" data-theme="light">
 
 						<!-- Me -->
 							<article id="home" class="panel intro">
@@ -142,6 +147,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script src="assets/js/darkmode.js"></script>
 	</body>
 </html>
