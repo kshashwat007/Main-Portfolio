@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 @import url("fontawesome-all.min.css");
-@import "./darkmode.scss";
+@import "css/darkmode.css";
 
 /*
 	Astral by HTML5 UP
@@ -128,7 +128,7 @@ h3, h4, h5, h6 {
 	letter-spacing: -0.015em;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 600px){
 	
 }
 
@@ -1988,11 +1988,83 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 743px) {
 
 			#wrapper {
 				padding: 1em 0;
-				max-width: calc(100% - 2em);
+				max-width: 600px;
+			}
+
+		}
+
+		@media screen and (max-width: 615px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 500px;
+			}
+
+		}
+
+		@media screen and (max-width: 540px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 480px;
+			}
+
+		}
+
+		@media screen and (max-width: 512px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 450px;
+			}
+
+		}
+
+		@media screen and (max-width: 490px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 440px;
+			}
+
+		}
+
+		@media screen and (max-width: 470px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 420px;
+			}
+
+		}
+
+		@media screen and (max-width: 440px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 390px;
+			}
+
+		}
+
+		@media screen and (max-width: 415px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 370px;
+			}
+
+		}
+
+		@media screen and (max-width: 390px) {
+
+			#wrapper {
+				padding: 1em 0;
+				max-width: 340px;
 			}
 
 		}
@@ -2000,8 +2072,8 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			#wrapper {
-				padding: 1em 0;
-				max-width: 100%;
+				padding: 0.5em 0;
+				max-width: 300px;
 			}
 
 		}
