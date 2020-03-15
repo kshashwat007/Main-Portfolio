@@ -46,7 +46,23 @@ article{
 	background-color: var(--bg-panel);
 	
 }
+.nav-list{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: left;
+	align-items: left;
+	padding: 0;
+  }
 
+  .nav-list li{
+	  padding-left: 0;
+	  padding: 2px;
+	  margin-right: 1rem;
+  }
+
+  
 html {
 	box-sizing: border-box;
 }
@@ -183,6 +199,7 @@ br.clear {
 
 p, ul, ol, dl, table, blockquote, form {
 	margin-bottom: 2em;
+	margin-right: 0;
 }
 blockquote, q {
 	quotes: none;
@@ -1797,10 +1814,30 @@ input, select, textarea {
 
 /* Icons */
 
+.arrow {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	margin-top: -1.375em;
+	width: 2.75em;
+	height: 2.75em;
+	background: rgba(0, 0, 0, 0.75);
+	color: #ffffff;
+	text-align: center;
+	line-height: 2.75em;
+	font-size: 1.5em;
+	z-index: 1;
+	-moz-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+	-webkit-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+	-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+	transition: width .15s ease-in-out, padding-right .15s ease-in-out;
+}
 	.icon {
 		text-decoration: none;
 		position: relative;
 		text-decoration: none;
+		
 	}
 
 		.icon:before {
@@ -1977,6 +2014,8 @@ input, select, textarea {
 				max-width: calc(100% - 6em);
 			}
 
+			
+
 		}
 
 		@media screen and (max-width: 980px) {
@@ -1985,7 +2024,10 @@ input, select, textarea {
 				padding: 1.5em 0;
 				max-width: calc(100% - 8em);
 			}
-
+			.nav-list{
+				justify-content: center;
+				align-items: center;
+			}
 		}
 
 		@media screen and (max-width: 743px) {
@@ -1994,7 +2036,10 @@ input, select, textarea {
 				padding: 1em 0;
 				max-width: 600px;
 			}
-
+			.nav-list{
+				justify-content: center;
+				align-items: center;
+			}
 		}
 
 		@media screen and (max-width: 615px) {
@@ -2074,6 +2119,7 @@ input, select, textarea {
 			#wrapper {
 				padding: 0.5em 0;
 				max-width: 300px;
+				font-size: 1rem;
 			}
 
 		}
@@ -2185,7 +2231,6 @@ input, select, textarea {
 						margin-top: -1.375em;
 						width: 2.75em;
 						height: 2.75em;
-						background: #000;
 						background: rgba(0, 0, 0, 0.75);
 						color: #ffffff;
 						text-align: center;
@@ -2197,6 +2242,8 @@ input, select, textarea {
 						-ms-transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 						transition: width .15s ease-in-out, padding-right .15s ease-in-out;
 					}
+
+					
 
 						#main > .panel.intro .pic .arrow:before {
 							position: relative;
